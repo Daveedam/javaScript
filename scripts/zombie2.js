@@ -16,5 +16,9 @@ alert(weapon + " " + "помогает тебе расправиться с зо
 if (chance === 0){
   alert("Зомби укусил вас. Вы проиграли");
 } else if (chance === 1){
-  alert("Ты убил зомби. Ты выиграл. Выбранное тобой оружие:"+ " " + weapon ;
+  alert("Ты убил зомби. Ты выиграл. Выбранное тобой оружие:"+ " " + weapon);
 }
+/*
+Exception: SyntaxError: missing ) after argument list
+@Scratchpad/1:19
+*/
